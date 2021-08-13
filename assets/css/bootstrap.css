@@ -3963,6 +3963,7 @@ input[type="button"].btn-block {
   height: auto;
   padding-right: 0.75rem;
   background-image: none;
+  background-size: cover;
 }
 
 .custom-select:disabled {
