@@ -3963,7 +3963,6 @@ input[type="button"].btn-block {
   height: auto;
   padding-right: 0.75rem;
   background-image: none;
-  background-size: cover;
 }
 
 .custom-select:disabled {
@@ -4346,7 +4345,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-}
+  }
 
 .navbar .container,
 .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
