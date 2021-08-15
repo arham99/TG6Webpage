@@ -138,10 +138,72 @@
   z-index: 10;
 }
 
+.page-AboutUs .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: orange;
+}
+
+
+.page-AboutUs .img-place {
+  width: 300px;
+  height: 200px;
+  background-color: #dfe0e6;
+  overflow: unset;
+  background-size: cover;
+}
+
+.page-AboutUs {
+  padding: 100px 0;
+  text-align: left;
+  color: #fff;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+.page-lagu {
+  padding:20px 0;
+  text-align: center;
+  color: #fff;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
 
 .page-about {
   background-color: #fff;
 }
+
+.page-KomtingQuotes .img-place {
+  width: 280px;
+  height: 350px;
+  background-color: #dfe0e6;
+  overflow: unset;
+}
+
+.page-KomtingQuotes .img-place::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: -35px;
+  width: 100%;
+  height: 100%;
+  border: 5px solid #747474;
+  z-index: -1;
+}
+
+
+
+
 
 .page-about .img-place {
   width: 280px;
@@ -611,6 +673,10 @@
 }
 
 .theme-orange .page-about .img-place::before {
+  border-color: #fd7e14;
+}
+
+.theme-orange .page-KomtingQuotes .img-place::before {
   border-color: #fd7e14;
 }
 
